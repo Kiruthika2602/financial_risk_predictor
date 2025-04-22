@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Financial Risk Predictor</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Financial Details</h2>
+        <form action="/predict" method="post">
+            <label>Credit Rating:</label>
+            <select name="credit_rating">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+            </select>
+
+            <label>Employment Type:</label>
+            <select name="employment_type">
+                <option value="Full-time">Full-time</option>
+                <option value="Part-time">Part-time</option>
+                <option value="Freelance">Freelance</option>
+                <option value="Unemployed">Unemployed</option>
+            </select>
+
+            <label>Account Status:</label>
+            <select name="account_status">
+                <option value="Open">Open</option>
+                <option value="Closed">Closed</option>
+                <option value="Overdue">Overdue</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+
+            <label>Income Bracket:</label>
+            <select name="income_bracket">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+
+            <button type="submit" class="btn">Predict Risk</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+credit_rating,employment_type,account_status,income_bracket,risk
+A,Full-time,Open,High,Low
+B,Part-time,Closed,Medium,Medium
+C,Freelance,Overdue,Low,High
+D,Unemployed,Inactive,Low,High
+A,Full-time,Open,Medium,Low
+B,Freelance,Overdue,Medium,High

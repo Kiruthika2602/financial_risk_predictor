@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Risk Prediction Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <p>The predicted financial risk is: <strong class="risk-text">{{ prediction }}</strong></p>
+
+        <form action="/" method="get">
+            <button type="submit" class="btn">Try Again</button>
+        </form>
+    </div>
+</body>
+</html>
